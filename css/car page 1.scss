@@ -1,0 +1,818 @@
+@media (min-width: 480px) and (max-width: 1920px) {
+    html {
+      font-size: calc(5px + 15 * (100vw - 480px) / 1440);
+    }
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    h2{
+        font-family:'Montserrat';
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: black;
+    }
+    h3{
+        font-family:'Montserrat';
+        font-weight: normal;
+        font-size: 1.5rem;
+        color: black;
+    }
+    h4{
+        font-family:'Montserrat';
+        font-weight: normal;
+        font-size: 1.25rem;
+        color: black;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+    header{
+        background-color: #B1B1B1;
+        width: 100%;
+        height: 5rem;
+    }
+    nav{
+        display: none;
+    }
+    .logo_text{ 
+        display: inline-block;
+        margin-top: 1.2rem;
+        margin-left: 0.5rem;
+        width: 10rem;
+        height: 2rem;
+    }
+    .catalog_text{
+        display: inline-block;
+        margin-left: 55rem;
+    }
+    .contacts_text{
+        display: inline-block;
+        margin-left: 3rem;
+    }
+    .account_text{
+        display: inline-block;
+        margin-left: 3rem;
+    }
+    .car_rectangle{
+        width: 90rem;
+        height: 32rem;
+        background-color: #F4F4F4;
+        border-radius: 0.5rem;
+        margin-top: 3rem;
+        margin-left: 2.5rem;
+    }
+    .car_rectangle h2{
+        font-weight: normal;
+    }
+    .model{
+        vertical-align: top;
+        display: inline-block;
+    }
+    .year, .body, .avg, .engine, .doors{
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: auto;
+        width: 7.1135rem;
+        height: 2.424rem;
+        background-color: #D9D9D9;
+        border-radius: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    .year{
+        margin-top: -25rem;
+        margin-left: 52rem;
+    }
+    .body{
+        margin-top: -26.15rem;
+        margin-left: 60rem;
+    }
+    .avg{
+        margin-top: -27.25rem;
+        margin-left: 68rem;
+    }
+    .engine{
+        margin-top: -28.4rem;
+        margin-left: 76rem;
+    }
+    .doors{
+        margin-top: -25.7rem;
+        margin-left: 52rem;
+    }
+    .color{
+        width: 2.3rem;
+        height: 2.3rem;
+        border: 0.15rem solid black;
+        border-radius: 0.5rem;
+        background-color: white;
+        margin-top: -26.6rem;
+        margin-left: 60rem;
+    }
+    .color_text{
+        margin-top: -2rem;
+        margin-left: 63rem;
+    }
+    .stock{
+        display: inline-block;
+        width: 1.15rem;
+        height: 1.15rem;
+        background-color: rgb(153, 252, 4);
+        border: 0.15rem solid black;
+        border-radius: 50%;
+        margin-top: -0.2rem;
+        margin-left: 52rem;
+    }
+    .stock_text{
+        margin-top: -1.7rem;
+        margin-left: 54rem;
+    }
+    .test_drive, .consultation{
+        width: 15rem;
+        height: 2.75rem;
+        border-radius: 0.5rem;
+        background-color: #D9D9D9;
+        display: inline-block;
+    }
+    .test_drive{
+        margin-top: 5.5rem;
+        margin-left: 52rem;
+    }
+    .consultation{
+        margin-left: 1.25rem;
+    }
+    .order{
+        width: 31.5rem;
+        height: 3.5rem;
+        background-color: #D9D9D9;
+        border-radius: 0.5rem;
+        display: inline-block;
+        margin-left: 52rem;
+        margin-top: 0.5rem;
+    }
+    .order h3{
+        padding-top: 0.25rem;
+    }
+    .test_drive, .consultation, .order h3{
+        line-height: 0;
+        text-align: center;
+    }
+    .test_drive:hover, .consultation:hover, .order:hover{
+        background-color:#777;
+        transition: 0.6s;
+    }
+    button{
+        border: none;
+    }
+    .mySlides {display: none}
+    .slideshow-container {
+        display: inline-block;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 55.35%;
+        height: 28.75rem;
+    }
+    .slideshow-container img{
+        width: 100%;
+        border-radius: 0.25rem;
+    }
+    .prev, .next {
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: 1rem;
+        width: auto;
+        padding: 0.8rem;
+        color: black;
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: 0.6s ease;
+        border-radius: 0 0.15rem 0.15rem 0;
+        user-select: none;
+    }
+    .next {
+        margin-top: 21rem;
+        margin-left: 47rem;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev{
+        margin-top: 21rem;
+        margin-left: 0.7rem;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    .acc{
+        margin-top: 1rem;
+    }
+    .accordion {
+        background-color: white;
+        border-radius: 0.5rem;
+        color: #444;
+        cursor: pointer;
+        width: 95.2rem;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+    .accordion h2{
+        padding-left: 2rem;
+    }
+    button{
+        padding: 0;
+        margin: 0;
+    }
+    .form-popup {
+        display: none;
+        position: fixed;
+        margin-top: -19rem;
+        margin-left: 37rem;
+    }  
+    .form-container {
+        background-color: #B1B1B1;
+        width: 20rem;
+        height: 22.5rem;
+        border-radius: 0.5rem;
+    }
+    .form-container h4{
+        margin-left: 2.3rem;
+        margin-bottom: 0;
+    }
+    .form-container h4:first-child{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .form-container input[type=text]:focus, .form-container input[type=password]:focus, .form-container input[type=tel]:focus {
+        background-color: #ddd;
+    }
+    input{
+        margin-left: 2.3rem;
+        width: 15rem;
+        height: 2.5rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-family: 'Montserrat';
+    }
+    .send, .close{
+        width: 5rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .accordion h2{
+        font-weight: normal;
+    }
+    .active1, .accordion:hover {
+        background-color: #ccc;
+    }
+    .panel {
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+    .panel ul{
+        list-style-type: none;
+    }
+    .panel li{
+        border-bottom: 0.1rem solid black;
+    }
+    .accordion:after {
+        content: '\02795';
+        font-size: 0.65rem;
+        color: #777;
+        float: right;
+    }
+    .active1:after {
+        content: "\2796";
+    }
+    .characteristics{
+        margin-top: -3.3rem;
+        text-align: right;
+    }
+    .photos_text{
+        width: 96rem;
+        height: 76.6rem;
+        background-color: black;
+    }
+    .photos_text img{
+        display: inline-block;
+        width: 48rem;
+        height: 25.5rem;
+    }
+    .pt_img1{
+        margin-top: -29.65rem;
+        margin-left: 47.25rem;
+    }
+    .pt_img2{
+        margin-top: -0.25rem;
+        margin-left: -0.75rem;
+    }
+    .pt_img3{
+        margin-left: 47.25rem;
+        margin-top: -29.90rem;
+    }
+    .photos_text h2{
+        text-align: center;
+        width: 48rem;
+        height: 25.5rem;
+        font-weight: normal;
+        color: white;
+    }
+    .pt_text2{
+        margin-top: -23.5rem;
+        margin-left: 47.2rem;
+    }
+    .pt_text3{
+        margin-top: -2rem;
+    }
+    video{
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        width: 100%;
+        height: 23.5rem;
+        background-color: #B1B1B1;
+    }
+    .footer_links{
+        vertical-align: top;
+        display: inline-block;
+        padding-top: 0.5rem;
+        padding-left: 2rem;
+        line-height: 0.3rem;
+    }
+    .nav{text-decoration: underline;}
+    .contacts{
+        padding-top: 12rem;
+        padding-left: 2rem;
+        line-height: 0.3rem;
+        vertical-align: top;
+        display: inline-block;
+    }
+    .social{
+        padding-top: 12rem;
+        padding-left: 2rem;
+        line-height: 0.3rem;
+        vertical-align: top;
+        display: inline-block;
+    }
+    .address{
+        padding-top: 12rem;
+        padding-left: 2rem;
+        line-height: 0.3rem;
+        vertical-align: top;
+        display: inline-block;
+    }
+    .map{
+        display: inline-block;
+        margin-top: 1.3rem;
+        margin-left: 1rem;
+        width: 37rem;
+        height: 21rem;
+    }
+}
+@media (max-width: 480px){
+    html {
+        font-size: calc(5px + 6 * (100vw - 480px) / 480);
+    }
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    h2{
+        font-family:'Montserrat';
+        font-weight: bold;
+        font-size: 6.5rem;
+        color: black;
+    }
+    h3{
+        font-family:'Montserrat';
+        font-weight: normal;
+        font-size: 5.5rem;
+        color: black;
+    }
+    h4{
+        font-family:'Montserrat';
+        font-weight: normal;
+        font-size: 4.25rem;
+        color: black;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+    header{
+        background-color: #B1B1B1;
+        width: 100%;
+        height: 10rem;
+    }
+    nav{
+        background-color: transparent;
+    }
+    .ham-menu{
+        vertical-align: top;
+        height: 10rem;
+        width: 10rem;
+        position: relative;
+        margin-left: 86rem;
+        margin-top: -11rem;
+    }
+    .ham-menu span{
+        height: 5px;
+        width: 100%;
+        background-color: black;
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .3s ease;
+    }
+    .ham-menu span:nth-child(1){
+        top: 25%;
+    }
+    .ham-menu span:nth-child(3){
+        top: 75%;
+    }
+    .ham-menu.active span:nth-child(1){
+        top: 50%;
+        transform: translate(-50%,-50%) rotate(45deg);
+    }
+    .ham-menu.active span:nth-child(2){
+        opacity: 0;
+    }
+    .ham-menu.active span:nth-child(3){
+        top: 50%;
+        transform: translate(-50%,-50%) rotate(-45deg);
+    }
+    .off-screen-menu{
+        position: absolute;
+        top: 5.3%;
+        display: none;
+        background-color: black;
+        height: 21vh;
+        width: 55%;
+        border-radius: 2rem;
+        z-index: 100;
+        text-align: center;
+    }
+    .off-screen-menu h3{
+       color: white;
+    }
+    .off-screen-menu.active{
+        display: block;
+        right: 0;
+    }
+    .logo_text{ 
+        display: inline-block;
+        width: 25rem;
+        height: 11rem;
+        margin-left: 2rem;
+    }
+    .catalog_text{
+        display: none;
+    }
+    .contacts_text{
+        display: none;
+    }
+    .account_text{
+        display: none;
+    }
+
+    .car_rectangle{
+        width: 94rem;
+        height: 135rem;
+        background-color: #F4F4F4;
+        border-radius: 2rem;
+        margin-top: 3rem;
+        margin-left: 2.5rem;
+    }
+    .car_rectangle h2{
+        font-weight: normal;
+    }
+    .model{
+        margin-left: 1.5rem;
+        margin-bottom: 0;
+    }
+    .year, .body, .avg, .engine, .doors{
+        text-align: center;
+        width: 21rem;
+        height: 7rem;
+        background-color: #D9D9D9;
+        border-radius: 2rem;
+        display: inline-block;
+        margin-left: 1.7rem;
+        margin-bottom: 0;
+    }
+    .color{
+        width: 6rem;
+        height: 6rem;
+        border: 0.45rem solid black;
+        border-radius: 1.5rem;
+        background-color: white;
+        display: inline-block;
+        margin-left: 1.7rem;
+        margin-top: -4.3rem;
+        vertical-align: text-top;
+    }
+    .color_text{
+        margin-top: -6.5rem;
+        margin-left: 32rem;
+    }
+    .stock{
+        width: 3rem;
+        height: 3rem;
+        background-color: rgb(153, 252, 4);
+        border: 0.35rem solid black;
+        border-radius: 50%;
+        margin-left: 1.7rem;
+    }
+    .stock_text{
+        margin-top: -5rem;
+        margin-left: 6rem;
+    }
+    .test_drive, .consultation{
+        width: 43rem;
+        height: 11rem;
+        border-radius: 2rem;
+        background-color: #D9D9D9;
+        
+    }
+    .test_drive:hover, .consultation:hover, .order:hover{
+        background-color:#777;
+        transition: 0.6s;
+    }
+    .test_drive{
+        margin-left: 3rem;
+    }
+    .consultation{
+        margin-left: 1.5rem;
+    }
+    .order{
+        width: 87.5rem;
+        height: 11rem;
+        background-color: #D9D9D9;
+        border-radius: 2rem;
+        margin-top: 1.5rem;
+        margin-left: 3rem;
+    }
+    .order h3{
+        padding-top: 0.25rem;
+    }
+    .test_drive, .consultation, .order h3{
+        line-height: 0;
+        text-align: center;
+    }
+    button{
+        border: none;
+    }
+    .mySlides {display: none}
+    .slideshow-container {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 96%;
+    }
+    .slideshow-container img{
+        width: 100%;
+        border-radius: 1rem;
+    }
+    .prev, .next {
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: 37rem;
+        width: auto;
+        padding: 0.8rem;
+        color: black;
+        font-weight: bold;
+        font-size: 2.9rem;
+        transition: 0.6s ease;
+        border-radius: 0 0.15rem 0.15rem 0;
+        user-select: none;
+    }
+    .next {
+        margin-left: 86.5rem;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev{
+        margin-left: 0.7rem;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    .form-popup {
+        display: none;
+        position: fixed;
+        margin-top: -100rem;
+        margin-left: 11rem;
+    }  
+    .form-container {
+        background-color: #B1B1B1;
+        width: 67rem;
+        height: 93rem;
+        border-radius: 2rem;
+    }
+    .form-container h4{
+        font-size: 6rem;
+        margin-left: 2.3rem;
+        margin-bottom: 0;
+    }
+    .form-container h4:first-child{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .form-container input[type=text]:focus, .form-container input[type=email]:focus, .form-container input[type=tel]:focus {
+        background-color: #ddd;
+    }
+    input{
+        margin-left: 2.3rem;
+        width: 61.5rem;
+        height: 10rem;
+        border-radius: 2rem;
+        border: none;
+        font-family: 'Montserrat';
+    }
+    .send, .close{
+        width: 30rem;
+        height: 8rem;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        margin-left: 2.3rem;
+        font-family: 'Montserrat';
+    }
+    .acc{
+        margin-top: 1rem;
+    }
+    .accordion {
+        background-color: white;
+        border-radius: 1rem;
+        color: #444;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+    .accordion h2{
+        padding-left: 2rem;
+    }
+    button{
+        padding: 0;
+        margin: 0;
+    }
+    .accordion h2{
+        font-weight: normal;
+    }
+    .active1, .accordion:hover {
+        background-color: #ccc;
+    }
+    .panel {
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+    .panel ul{
+        margin-left: -7rem;
+        list-style-type: none;
+    }
+    .panel li{
+        border-bottom: 0.1rem solid black;
+    }
+    .accordion:after {
+        content: '\02795';
+        font-size: 2rem;
+        color: #777;
+        float: right;
+    }
+    .active1:after {
+        content: "\2796";
+    }
+    .characteristics{
+        margin-top: -12rem;
+        margin-right: 4rem;
+        text-align: right;
+    }
+    .photos_text{
+        width: 100%;
+        background-color: black;
+    }
+    .photos_text img{
+        width: 100%;
+        height: 55rem;
+    }
+    .pt_img1{
+        margin-top: 28rem;
+    }
+    .pt_img2{
+        margin-top: 55rem;
+    }
+    .pt_img3{
+        margin-top: 20rem;
+    }
+    .photos_text h2{
+        text-align: center;
+        width: 100%;
+        height: 25.5rem;
+        font-weight: normal;
+        color: white;
+        display: block;
+    }
+    .pt_text2{
+        margin-top: -110rem;
+    }
+    .pt_text3{
+        margin-top: 85rem;
+    }
+    video{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer{
+        width: 100%;
+        height: 94%;
+        background-color: #B1B1B1;
+    }
+    .footer_links{
+        vertical-align: top;
+        display: inline-block;
+        padding-top: 0.2rem;
+        padding-left: 4rem;
+        line-height: 0.3rem;
+    }
+    .nav{
+        text-decoration: underline;
+    }
+    .contacts{
+        padding-top: 0.2rem;
+        padding-left: 28rem;
+        padding-bottom: 1rem;
+        line-height: 0.3rem;
+        display: inline-block;
+    }
+    .social{
+        vertical-align: top;
+        line-height: 0.3rem;
+        padding-left: 4rem;
+        display: inline-block;
+    }
+    .address{
+        padding-left: 4rem;
+        line-height: 0.3rem;
+        display: inline-block;
+    }
+    .map{
+        border: 0.5rem solid black;
+        margin-left: 2rem;
+        width: 95%;
+        height: 65rem;
+    }
+}
