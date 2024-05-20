@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <car>
+        <brand>Tesla</brand>
+        <model>Model Y</model>
+        <photo>photos\model y.png</photo>
+        <body>SUV</body>
+        <doors>Doors: 5; Seats: 5/7</doors>
+        <speed>Top Speed: 217 km/h</speed>
+        <drive>Plug-in</drive>
+        <power>500 km</power>
+        <cost>$34490</cost>
+        <link>car page 1.html</link>
+    </car>
+    <car>
+        <brand>Zeekr</brand>
+        <model>001</model>
+        <photo>photos\zeekr001.png</photo>
+        <body>Wagon</body>
+        <doors>Doors: 5; Seats: 5</doors>
+        <speed>Top Speed: 200 km/h</speed>
+        <drive>All-wheel</drive>
+        <power>620 km</power>
+        <cost>$41950</cost>
+        <link>car page 2.html</link>
+    </car>
+    <car>
+        <brand>BYD</brand>
+        <model>QIN Plus</model>
+        <photo>\photos\byd-qin.jpg</photo>
+        <body>Sedan</body>
+        <doors>Doors: 5; Seats: 5</doors>
+        <speed>Top Speed: 160 km/h</speed>
+        <drive>Front-wheel</drive>
+        <power>420 km</power>
+        <cost>$19590</cost>
+        <link>car page 3.html</link>
+    </car>
+    <car>
+        <brand>Tesla</brand>
+        <model>Model 3</model>
+        <photo>photos\model 3.png</photo>
+        <body>Sedan</body>
+        <doors>Doors: 5; Seats: 5</doors>
+        <speed>Top Speed: 201 km/h</speed>
+        <drive>Rear-wheel</drive>
+        <power>550 km</power>
+        <cost>$33990</cost>
+        <link>car page 4.html</link>
+    </car>
+    <car>
+        <brand>Toyota</brand>
+        <model>Prius Prime</model>
+        <photo>photos\prius-prime(hybrid).png</photo>
+        <body>Hybrid</body>
+        <doors>Doors: 5; Seats: 3</doors>
+        <speed>Top Speed: 180 km/h</speed>
+        <drive>Front-wheel</drive>
+        <power></power>
+        <cost>$34000</cost>
+        <link></link>
+    </car>
+    <car>
+        <brand>Volkswagen</brand>
+        <model>ID.3</model>
+        <photo>photos\VW id.3 (hatchback).jpg</photo>
+        <body>Hatchback</body>
+        <doors>Doors: 5; Seats: 5</doors>
+        <speed>Top Speed: 160 km/h</speed>
+        <drive>Rear-wheel</drive>
+        <power>425 km</power>
+        <cost>$20735</cost>
+        <link></link>
+    </car>
+    <car>
+        <brand>LiXiang</brand>
+        <model>L9</model>
+        <photo>photos\LI-L9.png</photo>
+        <body>SUV</body>
+        <doors>Doors: 5; Seats: 6</doors>
+        <speed>Top Speed: 180 km/h</speed>
+        <drive>All-wheel</drive>
+        <power>280 km</power>
+        <cost>$65400</cost>
+        <link></link>
+    </car>
+    <car>
+        <brand>Baojun</brand>
+        <model>Kiwi EV</model>
+        <photo>photos\kiwiEV.png</photo>
+        <body>Micro</body>
+        <doors>Doors: 3; Seats: 4</doors>
+        <speed>Top Speed: 105 km/h</speed>
+        <drive>Rear-wheel</drive>
+        <power>305 km</power>
+        <cost>$25000</cost>
+        <link></link>
+    </car>
+    <car>
+        <brand>Porsche</brand>
+        <model>Taycan</model>
+        <photo>photos\porsche taycan.png</photo>
+        <body>Sedan</body>
+        <doors>Doors: 5; Seats: 5</doors>
+        <speed>Top Speed: 230 km/h</speed>
+        <drive>Rear-wheel</drive>
+        <power>503 km</power>
+        <cost>$90000</cost>
+        <link>car page 9.html</link>
+    </car>
+</catalog>
