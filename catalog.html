@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\catalog.css">
+    <title>E.CARS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js\catalog.js"></script>
+</head>
+<body>
+    <header>
+        <a href="main page.html"><img class="logo_text" src="\photos\icons\logo.svg"></img></a>
+        <h3 class="catalog_text"><a href="catalog.html">Catalog</a></h3>
+        <h3 class="contacts_text"><a href="#contacts">Contacts</a></h3>
+        <h3 class="account_text"><a href="about us.html">About Us</a></h3>
+        <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="off-screen-menu">
+                <a href="catalog.html">
+                    <h3>Catalog</h3>
+                </a>
+                <a href="#contacts">
+                    <h3>Contacts</h3>
+                </a>
+                <a href="about us.html">
+                    <h3>About Us</h3>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <h2 class="catalog">Catalog</h2>
+    <div class="filter_pos">
+        <div class="filter_rectangle">
+            <div class="filter_brand_pos">
+                <h3>Car Brand</h3>
+                <select id="brandFilter">
+                    <option value="All">All</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Zeekr">Zeekr</option>
+                    <option value="BYD">BYD</option>
+                    <option value="LiXiang">LiXiang</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Porsche">Porsche</option>
+                </select>
+            </div>
+            <div>
+                <h3>Type Of Drive</h3>
+                <select id="driveFilter">
+                    <option value="All">All</option>
+                    <option value="Front-wheel">Front-wheel drive</option>
+                    <option value="Rear-wheel">Rear-wheel drive</option>
+                    <option value="All-wheel">All-wheel drive</option>
+                    <option value="Plug-in">Plug-in all-wheel drive</option>
+                </select>
+            </div>
+            <div>
+                <h3>Body Type</h3>
+                <select id="body_type_select">
+                    <option value="All">All</option>
+                    <option value="Sedan" id="sedan">Sedan</option>
+                    <option value="Hatchback">Hatchback</option>
+                    <option value="Hybrid">Hybrid</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Wagon">Wagon</option>
+                    <option value="Micro">Micro</option>
+                </select>
+            </div>
+            <div class="filter_brand_pos">
+                <h3>Power reserve</h3>
+                <select id="">
+                    <option value="All">All</option>
+                </select>
+            </div>
+
+            <div class="filter_price">
+                <h3>Price, USD</h3>
+                <input type="number" id="priceFrom" placeholder="From: " class="price">
+                <input type="number" id="priceTo" placeholder="To: " class="price">
+            </div>
+            <button class="filter_submit" type="submit">Accept</button>
+            <button class="filter_reset" type="reset">Reset</button>
+        </div>
+    </div>
+    </a>
+    
+    <div class="items"></div>
+
+    <footer id="contacts" class="footer">
+        <div class="footer_links">
+            <h4 class="nav">Navigation</h4>
+            <h4><a href="main page.html">Main Page</a></h4>
+            <h4><a href="catalog.html">Catalog</a></h4>
+            <h4><a href="about us.html">About Us</a></h4>
+        </div>
+        <div class="contacts">
+            <h4 class="nav">Contacts:</h4>
+            <h4>+375 (29) ***-**-**</h4>
+            <h4>+375 (44) ***-**-**</h4>
+            <h4>+375 (17) ***-**-**</h4>
+        </div>
+        <div class="social">
+            <h4 class="nav">We are on social media:</h4>
+            <h4><a>@e.cars</a></h4>
+            <h4><a>@e.cars</a></h4>
+            <h4><a>@e.cars</a></h4>
+        </div>
+        <div class="address">
+            <h4 class="nav">Address:</h4>
+            <h4>North Spring Street, </h4>
+            <h4>843, Los Angeles,</h4>
+            <h4>County of Los Angeles,</h4>
+            <h4>California</h4>
+        </div>
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaa819ab80ef543e5a14a3880e5fe7bb168b5fe1377e784a191066ee3a243da82&amp;width=37rem&amp;height=21rem&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </footer>
+    <script src="\js\hamburger menu.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\car page 1.css">
+    <title>E.CARS</title>
+</head>
+<body>
+<header>
+  <a href="main page.html"><img class="logo_text" src="\photos\icons\logo.svg"></img></a>
+    <h3 class="catalog_text"><a href="catalog.html">Catalog</a></h3>
+    <h3 class="contacts_text"><a href="#contacts">Contacts</a></h3>
+    <h3 class="account_text"><a href="about us.html">About Us</a></h3>
+    <nav>
+      <div class="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          
+      </div>
+      <div class="off-screen-menu">
+          <a href="catalog.html"><h3>Catalog</h3></a>
+          <a href="#contacts"><h3>Contacts</h3></a>
+          <a href="about us.html"><h3>About Us</h3></a>
+      </div>
+  </nav>
+</header>
+
+<div class="car_rectangle">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="\photos\zeekr 001\1.png" alt="">
+      </div>
+      <div class="mySlides fade">
+        <img src="\photos\zeekr 001\2.png" alt="">
+      </div>
+      <div class="mySlides fade">
+        <img src="\photos\zeekr 001\3.png" alt="">
+      </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <h2 class="model">Zeekr 001</h2>
+    <h3 class="year">2023</h3>
+    <h3 class="body">Wagon</h3>
+    <h3 class="avg">620km</h3>
+    <h3 class="engine">electro</h3>
+    <h3 class="doors">5 doors</h3>
+    <div class="color"></div>
+    <h3 class="color_text">White</h3>
+    <div class="stock"></div>
+    <h3 class="stock_text">In Stock</h3>
+    <button class="test_drive" class="open-button" onclick="openForm()"><h3>Test Drive</h3></button>
+    <button class="consultation" class="open-button" onclick="openForm()"><h3>Consultation</h3></button>
+    <button class="order" class="open-button" onclick="openForm()"><h3>Pre Order</h3></button>
+    <div class="form-popup" id="myForm">
+      <form action="#" class="form-container">
+        <label for="name"><h4>Name</h4></label>
+        <input type="text" placeholder="Your name" name="name" required>
+        <label for="email"><h4>E-mail</h4></label>
+        <input type="text" placeholder="Your email" name="email" required>
+        <label for="tel"><h4>Phone Number</h4></label>
+        <input type="tel" placeholder="Your number" name="tel" required>
+        <button type="submit" class="send">Send</button>
+        <button type="button" onclick="closeForm()" class="close">Close</button>
+      </form>
+    </div>
+</div>
+
+<div class="acc">
+  <button class="accordion"><h2>Engine</h2></button>
+  <div class="panel">
+    <ul>
+      <li><h3>Type of engine:</h3><h3 class="characteristics">Electro</h3></li>
+      <li><h3>Type of drive:</h3><h3 class="characteristics">All-wheel</h3></li>
+      <li><h3>Power of engine:</h3><h3 class="characteristics">400 kW</h3></li>
+    </ul>
+  </div>
+
+  <button class="accordion"><h2>Overall dimensions and Weight</h2></button>
+  <div class="panel">
+    <ul>
+      <li><h3>Length:</h3><h3 class="characteristics">495.5 cm</h3></li>
+      <li><h3>Height:</h3><h3 class="characteristics">156 cm</h3></li>
+      <li><h3>Width:</h3><h3 class="characteristics">222.5 cm</h3></li>
+      <li><h3>Weight:</h3><h3 class="characteristics">2575 kg</h3></li>
+      <li><h3>Trunk Volune:</h3><h3 class="characteristics">2144 liters</h3></li>
+    </ul>
+  </div>
+
+  <button class="accordion"><h2>Operational characteristics</h2></button>
+  <div class="panel">
+    <ul>
+      <li><h3>Transmission:</h3><h3 class="characteristics">Auto single-speed</h3></li>
+      <li><h3>Ground clearance:</h3><h3 class="characteristics">17 cm</h3></li>
+    </ul>
+  </div>
+</div>
+
+<div class="photos_text">
+<h2 class="pt_text1">Head turning design<p>The Zeekr 001 epitomizes the perfect blend of innovation, style, and performance.</p></h2>
+<div class="pt_img1"><img src="\photos\zeekr 001\1_1.jpg"></div>
+<div class="pt_img2"><img src="\photos\zeekr 001\1_2.jpg"></div>
+<h2 class="pt_text2">High-end, comfort and functionality<p>Surround yourself with the distinctive craftsmanship of the Zeekr 001 interior.</p></h2>
+<h2 class="pt_text3">Full control at your fingertips<p>The accessible controls on the central 15.4 inch touchscreen display – include Over-The-Air (OTA) software.</p></h2>
+<div class="pt_img3"><img src="\photos\zeekr 001\1_3.jpg"></div>
+</div>
+<video controls>
+  <source src="\photos\zeekr 001\zeekr001.webm">
+</video>
+
+<footer id="contacts" class="footer">
+    <div class="footer_links">
+        <h4 class="nav">Navigation</h4>
+        <h4><a href="main page.html">Main Page</a></h4>
+        <h4><a href="catalog.html">Catalog</a></h4>
+        <h4><a href="about us.html">About Us</a></h4>
+    </div>
+    <div class="contacts">
+        <h4 class="nav">Contacts:</h4> 
+        <h4>+375 (29) ***-**-**</h4>
+        <h4>+375 (44) ***-**-**</h4>
+        <h4>+375 (17) ***-**-**</h4>
+    </div> 
+    <div class="social">
+        <h4 class="nav">We are on social media:</h4>
+        <h4>@e.cars </h4>
+        <h4>@e.cars</h4>
+        <h4>@e.cars</h4>
+    </div>
+    <div class="address">
+        <h4 class="nav">Address:</h4>
+        <h4>North Spring Street, </h4>
+        <h4>843, Los Angeles,</h4>
+        <h4>County of Los Angeles,</h4>
+        <h4>California</h4>
+    </div>
+    <div class="map">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaa819ab80ef543e5a14a3880e5fe7bb168b5fe1377e784a191066ee3a243da82&amp;width=37rem&amp;height=21rem&amp;lang=ru_RU&amp;scroll=true"></script>        
+  </div>
+</footer>
+
+<script src="\js\slider.js"></script>
+<script src="\js\accordion.js"></script>
+<script src="\js\form.js"></script>
+<script src="\js\hamburger menu.js"></script>
+</body>
+</html>
