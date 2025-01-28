@@ -1,1 +1,1 @@
-# Kursovoi_project_2sem
+# Course project 2sem КЯР
